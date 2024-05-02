@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>esercitazione stili CSS</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- div container -->
     <header>
       <div id="logo">
         <img id="logo-pic" src="/assets/logo.png" />
@@ -17,7 +18,7 @@
       </div>
     </header>
     <main>
-      <article>
+      <article class="content">
         <div id="Presentazione-ricetta">
           <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
           <p>
@@ -27,8 +28,16 @@
             cranberries, and creamy brie. It will become your new favorite
             holiday starter!
           </p>
-          <img id="focaccia-foto" src="/assets/focaccia.png" />
-          <p id="pic-credits" align="center">Image: Sally Vegas</p>
+          <video
+            controls
+            poster="https://www.simplyrecipes.com/thmb/zF72dLHMKcc-jkJE76eOpXvBSD0=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__12__Cranberry-Brie-Onion-Focaccia-LEAD-3-de2a320146654a1e975487ca943bfaa3.jpg"
+          >
+            <source
+              src="/assets/8190079-uhd_4096_2160_30fps.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <p id="pic-credits">Image: Sally Vegas</p>
         </div>
         <div id="credits">
           <p>
@@ -40,6 +49,7 @@
         <div id="ingredients">
           <h2>Ingredients</h2>
           <hr />
+          <br />
           <p>For the Focaccia:</p>
           <ul>
             <li>4 cups (500g) all-purpose flour</li>
@@ -60,17 +70,20 @@
             <li>1 1/2 cups fresh or frozen cranberries</li>
           </ul>
         </div>
-        <div>
+        <div class="method">
           <h2>Method</h2>
           <hr />
+          <br />
           <ol>
-            <li>Make the focaccia dough</li>
             <li>
-              In a medium-sized mixing bowl, or in a stand mixer with a paddle
-              attachment, mix together all the dough ingredients until the flour
-              is fully absorbed. You don't need to actually knead the dough,
-              though I sometimes knead it a few times in the bowl when mixing by
-              hand to incorporate the last of the flour...
+              <p>Make the focaccia dough</p>
+              <p>
+                In a medium-sized mixing bowl, or in a stand mixer with a paddle
+                attachment, mix together all the dough ingredients until the
+                flour is fully absorbed. You don't need to actually knead the
+                dough, though I sometimes knead it a few times in the bowl when
+                mixing by hand to incorporate the last of the flour...
+              </p>
             </li>
           </ol>
           <p>Read more on <a href="#">Simply recipes</a></p>
