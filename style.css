@@ -1,0 +1,43 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main {
+  width: 60%;
+  align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#logo hr {
+  color: orange;
+  border: 0.1em solid;
+  margin-bottom: 0;
+}
+#logo-pic {
+  width: 13em;
+}
+#logo p {
+  background-color: #fdfbf1;
+  color: #107777;
+  margin: 0;
+  padding: 1em;
+}
+#pic-credits {
+  color: gray;
+}
+#credits span {
+  color: #c9774f;
+}
+a {
+  color: #75acad;
+}
+#focaccia-foto {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 5px #dedede;
+}
+hr {
+  color: #c4f3f2;
+  border: 0.1em solid;
+}
+article {
+  align: center;
+}
